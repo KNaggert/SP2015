@@ -26,3 +26,4 @@ astrocyte.bed <- astrocyte[c("Chr", "Start", "End")]
 write.table(adsp.bed, file = "adsp.bed", quote = F, row.names = F)
 write.table(neuron.bed, file = "neuron.bed", quote = F, row.names = F)
 write.table(astrocyte.bed, file = "astrocyte.bed", quote = F, row.names = F)
+
